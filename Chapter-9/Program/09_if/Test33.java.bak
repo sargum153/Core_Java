@@ -1,0 +1,17 @@
+/* Develop a Program to print experience based on the given designation read designation from the command line */
+
+class Test33 {
+	static void displayExp(String desig){
+		if (desig.equals("Associate")){
+			System.out.println("You have > 1 years Exeperience");
+		} else if (desig.equals("Sr. Associate")){
+			Sysyem.out.println("You have < 1 years Or > 2 years experience");
+		} else if (desig.equals("Team Lead")){
+			System.out.println("You have <= 4 years of experience");
+		} else if (desig.equals("Manager")){
+			System.out.println("You have <= 6 years of experience")
+		} else {
+			System.out.println("Invalid Designation");
+		}
+	}
+}

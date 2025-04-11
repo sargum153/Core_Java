@@ -1,0 +1,46 @@
+// Develop a Program To print day number to the given day code like SUN -> 1, MON -> 2.... so on. using switch case
+
+import java.util.Scanner;
+
+class DayNum {
+	public static void main(String[] args){
+		Scanner scn = new Scanner(System.in);
+
+		System.out.print("Enter Day Name oin Capital letter");
+
+		String dayNum = scn.next();
+
+		switch(dayNum){
+			case "SUN":
+				System.out.println("Sunday is day 1");
+			break;
+
+			case "MON":
+				System.out.println("Monday is day 2");
+			break;
+
+			case "TUS":
+				System.out.println("Tuesday is day 3");
+			break;
+
+			case "WED":
+				System.out.println("wednesday is day 4");
+			break;
+
+			case "THU":
+				System.out.println("Thursday is day 5");
+			break;
+
+			case "FRI":
+				System.out.println("Friday is day 6");
+			break;
+
+			case "SAT":
+				System.out.println("Saturday is day 7");
+			break;
+
+			default:
+				System.out.println("Please enter valid day.");
+		}
+	}
+}
